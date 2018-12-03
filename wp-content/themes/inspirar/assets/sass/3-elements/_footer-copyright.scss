@@ -1,0 +1,64 @@
+.site-copyright{
+	padding: 40px 0;
+	background-color: #1c1c1c;
+	border-top: 1px solid #575757;
+	p{
+		color: #a9a9a9;
+		margin-bottom: 0;
+		font-size: 14px;
+		span{
+		   color: $liteColor;
+		   &:hover{
+		   	color: #a9a9a9;
+		   }
+		}
+		a{
+		   color: $liteColor;
+		   &:hover{
+		   	color: #a9a9a9;
+		   }
+		}
+	}
+	a{
+		color: #a9a9a9;
+		font-size: 14px;
+		span{
+			color: $liteColor;
+			&:hover{
+		   	color: #a9a9a9;
+		   }
+		}
+	}
+   .widget{
+   	margin-bottom: 0;
+   }
+	.inspirar-footer-menu{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: right;
+		li{
+			display: inline-block;
+			padding-right: 10px;
+			&:last-child{
+				padding-right: 0;
+			}
+		}
+	}
+	.footer-social-links{
+		text-align: center;
+		.footer-social-nav{
+			a{
+				font-size: 19px;
+				color: #f9f9f9;
+				padding: 0 10px;
+				&:last-child{
+					padding-right: 0;
+				}
+			}
+		}
+	}
+
+
+}
+
